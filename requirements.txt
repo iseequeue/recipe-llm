@@ -1,0 +1,15 @@
+# PyTorch is installed separately with a CUDA build that still has Volta (sm_70) kernels:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cu126
+# 2.14 is the last release with cu126 wheels; cu128/cu129/cu130 builds do NOT support V100.
+transformers==5.19.0
+peft==0.21.2
+datasets==5.1.0
+accelerate==1.15.0
+mlflow==3.17.0
+pyyaml
+pandas
+pyarrow
+matplotlib      # scripts/report.py: figures
+gradio==6.30.0
+sentencepiece   # YandexGPT ships a SentencePiece tokenizer.model; transformers converts it on load
+protobuf

@@ -1,0 +1,27 @@
+# Qwen2.5-3B-Instruct + LoRA on V100. Fits 16 GB; noticeably better Russian than 1.5B, ~2x slower.
+# On 32 GB: per_device_train_batch_size=4 gradient_accumulation_steps=4
+model_name: Qwen/Qwen2.5-3B-Instruct
+model_dtype: fp16
+
+dataset_name: d0rj/povarenok_recipes_detail
+max_train_samples: 20000
+max_eval_samples: 300
+max_seq_len: 1024
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+output_dir: outputs/qwen2.5-3b-recipes
+num_train_epochs: 1
+per_device_train_batch_size: 2
+per_device_eval_batch_size: 4
+gradient_accumulation_steps: 8
+learning_rate: 1.5e-4
+warmup_ratio: 0.03
+gradient_checkpointing: true
+
+logging_steps: 10
+eval_steps: 200
+save_steps: 200
+mlflow_experiment: recipe-llm

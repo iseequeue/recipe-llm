@@ -1,0 +1,32 @@
+# YandexGPT-5-Lite-8B-instruct + LoRA on one V100 32 GB (fp16 weights are native for this model).
+# Data: data/clean/train.parquet from scripts/build_dataset.py + scripts/score_recipes.py (LLM-judge filtered).
+model_name: yandex/YandexGPT-5-Lite-8B-instruct
+model_dtype: fp16
+newline_token: auto            # -> "[NL]": the model was trained with newlines replaced by [NL]
+
+data_files: data/clean/train.parquet
+sort_by: judge_score           # best recipes first
+include_description: false     # user descriptions are mostly "Очень вкусно! Попробуйте!"
+max_train_samples: 10000
+max_eval_samples: 300
+max_seq_len: 1536            # same for both models; dropped share is logged as data/dropped_by_length_frac
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+output_dir: outputs/yandexgpt5-recipes
+num_train_epochs: 2            # best checkpoint by eval_loss is kept at the end
+per_device_train_batch_size: 2
+per_device_eval_batch_size: 4
+gradient_accumulation_steps: 8 # effective batch 16
+learning_rate: 1.0e-4
+warmup_ratio: 0.03
+gradient_checkpointing: true
+
+logging_steps: 10
+eval_steps: 125
+save_steps: 125
+save_total_limit: 2
+sample_max_new_tokens: 400
+mlflow_experiment: recipe-llm

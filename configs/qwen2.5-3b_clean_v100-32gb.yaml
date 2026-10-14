@@ -1,0 +1,32 @@
+# Baseline for the comparison: Qwen2.5-3B-Instruct trained on exactly the same cleaned data and with the
+# same recipe as the YandexGPT config, so the difference between the two is the base model.
+model_name: Qwen/Qwen2.5-3B-Instruct
+model_dtype: fp16
+newline_token: auto            # -> none for Qwen
+
+data_files: data/clean/train.parquet
+sort_by: judge_score
+include_description: false
+max_train_samples: 10000
+max_eval_samples: 300
+max_seq_len: 1536            # same for both models; dropped share is logged as data/dropped_by_length_frac
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+output_dir: outputs/qwen2.5-3b-clean-recipes
+num_train_epochs: 2
+per_device_train_batch_size: 4
+per_device_eval_batch_size: 8
+gradient_accumulation_steps: 4 # effective batch 16, as for YandexGPT
+learning_rate: 1.0e-4
+warmup_ratio: 0.03
+gradient_checkpointing: true
+
+logging_steps: 10
+eval_steps: 125
+save_steps: 125
+save_total_limit: 2
+sample_max_new_tokens: 400
+mlflow_experiment: recipe-llm

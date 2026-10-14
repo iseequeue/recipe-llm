@@ -1,0 +1,16 @@
+outputs/
+mlruns/
+mlartifacts/
+mlflow.db
+__pycache__/
+*.pyc
+.venv/
+tests/assets/
+hf_cache/
+data/
+logs/*.out
+# recipe texts from povarenok.ru (user content) - keep out of the public repo
+eval/judge_labeling.html
+eval/recipes_*.txt
+*.tgz
+*.zip

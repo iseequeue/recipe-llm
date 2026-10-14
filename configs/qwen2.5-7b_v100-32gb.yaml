@@ -1,0 +1,28 @@
+# Qwen2.5-7B-Instruct + LoRA. ONLY for V100 32 GB: fp16 weights alone take ~15 GB.
+# Best quality of the three configs, ~4-5x slower than 1.5B.
+model_name: Qwen/Qwen2.5-7B-Instruct
+model_dtype: fp16
+
+dataset_name: d0rj/povarenok_recipes_detail
+max_train_samples: 20000
+max_eval_samples: 200
+max_seq_len: 1024
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+
+output_dir: outputs/qwen2.5-7b-recipes
+num_train_epochs: 1
+per_device_train_batch_size: 2
+per_device_eval_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+warmup_ratio: 0.03
+gradient_checkpointing: true
+
+logging_steps: 10
+eval_steps: 250
+save_steps: 250
+sample_max_new_tokens: 320
+mlflow_experiment: recipe-llm

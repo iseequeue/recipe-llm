@@ -1,0 +1,487 @@
+{
+ "tag": "n120-s0",
+ "n": 120,
+ "items": [
+  {
+   "recipe_id": 104610,
+   "human": 3
+  },
+  {
+   "recipe_id": 60677,
+   "human": 4
+  },
+  {
+   "recipe_id": 147099,
+   "human": 3
+  },
+  {
+   "recipe_id": 14144,
+   "human": 2
+  },
+  {
+   "recipe_id": 84340,
+   "human": 3
+  },
+  {
+   "recipe_id": 150746,
+   "human": 2
+  },
+  {
+   "recipe_id": 170686,
+   "human": 1
+  },
+  {
+   "recipe_id": 119544,
+   "human": 3
+  },
+  {
+   "recipe_id": 47385,
+   "human": 3
+  },
+  {
+   "recipe_id": 165859,
+   "human": 4
+  },
+  {
+   "recipe_id": 90824,
+   "human": 4
+  },
+  {
+   "recipe_id": 14955,
+   "human": 4
+  },
+  {
+   "recipe_id": 161366,
+   "human": 4
+  },
+  {
+   "recipe_id": 75446,
+   "human": 3
+  },
+  {
+   "recipe_id": 133443,
+   "human": 3
+  },
+  {
+   "recipe_id": 34564,
+   "human": 4
+  },
+  {
+   "recipe_id": 20320,
+   "human": 4
+  },
+  {
+   "recipe_id": 132686,
+   "human": 4
+  },
+  {
+   "recipe_id": 76309,
+   "human": 4
+  },
+  {
+   "recipe_id": 83863,
+   "human": 4
+  },
+  {
+   "recipe_id": 59612,
+   "human": 2
+  },
+  {
+   "recipe_id": 51047,
+   "human": 4
+  },
+  {
+   "recipe_id": 26908,
+   "human": 3
+  },
+  {
+   "recipe_id": 30717,
+   "human": 4
+  },
+  {
+   "recipe_id": 47270,
+   "human": 4
+  },
+  {
+   "recipe_id": 66748,
+   "human": 2
+  },
+  {
+   "recipe_id": 25920,
+   "human": 3
+  },
+  {
+   "recipe_id": 80379,
+   "human": 4
+  },
+  {
+   "recipe_id": 154154,
+   "human": 2
+  },
+  {
+   "recipe_id": 67409,
+   "human": 4
+  },
+  {
+   "recipe_id": 30593,
+   "human": 3
+  },
+  {
+   "recipe_id": 50418,
+   "human": 4
+  },
+  {
+   "recipe_id": 55606,
+   "human": 4
+  },
+  {
+   "recipe_id": 28177,
+   "human": 4
+  },
+  {
+   "recipe_id": 29050,
+   "human": 3
+  },
+  {
+   "recipe_id": 22873,
+   "human": 3
+  },
+  {
+   "recipe_id": 34454,
+   "human": 2
+  },
+  {
+   "recipe_id": 155117,
+   "human": 2
+  },
+  {
+   "recipe_id": 36135,
+   "human": 5
+  },
+  {
+   "recipe_id": 76995,
+   "human": 5
+  },
+  {
+   "recipe_id": 123401,
+   "human": 3
+  },
+  {
+   "recipe_id": 76593,
+   "human": 2
+  },
+  {
+   "recipe_id": 134554,
+   "human": 5
+  },
+  {
+   "recipe_id": 53813,
+   "human": 3
+  },
+  {
+   "recipe_id": 141873,
+   "human": 3
+  },
+  {
+   "recipe_id": 98556,
+   "human": 4
+  },
+  {
+   "recipe_id": 150207,
+   "human": 4
+  },
+  {
+   "recipe_id": 89872,
+   "human": 4
+  },
+  {
+   "recipe_id": 133661,
+   "human": 3
+  },
+  {
+   "recipe_id": 108742,
+   "human": 5
+  },
+  {
+   "recipe_id": 62778,
+   "human": 3
+  },
+  {
+   "recipe_id": 152200,
+   "human": 4
+  },
+  {
+   "recipe_id": 33910,
+   "human": 4
+  },
+  {
+   "recipe_id": 20590,
+   "human": 3
+  },
+  {
+   "recipe_id": 123064,
+   "human": 3
+  },
+  {
+   "recipe_id": 32756,
+   "human": 4
+  },
+  {
+   "recipe_id": 166746,
+   "human": 4
+  },
+  {
+   "recipe_id": 112398,
+   "human": 5
+  },
+  {
+   "recipe_id": 68645,
+   "human": 3
+  },
+  {
+   "recipe_id": 164906,
+   "human": 4
+  },
+  {
+   "recipe_id": 101290,
+   "human": 4
+  },
+  {
+   "recipe_id": 86146,
+   "human": 3
+  },
+  {
+   "recipe_id": 157042,
+   "human": 5
+  },
+  {
+   "recipe_id": 157178,
+   "human": 3
+  },
+  {
+   "recipe_id": 170226,
+   "human": 3
+  },
+  {
+   "recipe_id": 76679,
+   "human": 5
+  },
+  {
+   "recipe_id": 54137,
+   "human": 4
+  },
+  {
+   "recipe_id": 47810,
+   "human": 2
+  },
+  {
+   "recipe_id": 153905,
+   "human": 3
+  },
+  {
+   "recipe_id": 57464,
+   "human": 5
+  },
+  {
+   "recipe_id": 118311,
+   "human": 4
+  },
+  {
+   "recipe_id": 90007,
+   "human": 4
+  },
+  {
+   "recipe_id": 171161,
+   "human": 3
+  },
+  {
+   "recipe_id": 153029,
+   "human": 3
+  },
+  {
+   "recipe_id": 77162,
+   "human": 5
+  },
+  {
+   "recipe_id": 140952,
+   "human": 4
+  },
+  {
+   "recipe_id": 77882,
+   "human": 5
+  },
+  {
+   "recipe_id": 60205,
+   "human": 5
+  },
+  {
+   "recipe_id": 120604,
+   "human": 3
+  },
+  {
+   "recipe_id": 31760,
+   "human": 4
+  },
+  {
+   "recipe_id": 56993,
+   "human": 4
+  },
+  {
+   "recipe_id": 112529,
+   "human": 5
+  },
+  {
+   "recipe_id": 32423,
+   "human": 4
+  },
+  {
+   "recipe_id": 167907,
+   "human": 3
+  },
+  {
+   "recipe_id": 95028,
+   "human": 3
+  },
+  {
+   "recipe_id": 57293,
+   "human": 3
+  },
+  {
+   "recipe_id": 87168,
+   "human": 5
+  },
+  {
+   "recipe_id": 120731,
+   "human": 5
+  },
+  {
+   "recipe_id": 99708,
+   "human": 3
+  },
+  {
+   "recipe_id": 147504,
+   "human": 5
+  },
+  {
+   "recipe_id": 85069,
+   "human": 5
+  },
+  {
+   "recipe_id": 60035,
+   "human": 3
+  },
+  {
+   "recipe_id": 55357,
+   "human": 5
+  },
+  {
+   "recipe_id": 52439,
+   "human": 3
+  },
+  {
+   "recipe_id": 136375,
+   "human": 5
+  },
+  {
+   "recipe_id": 42326,
+   "human": 3
+  },
+  {
+   "recipe_id": 70197,
+   "human": 4
+  },
+  {
+   "recipe_id": 135698,
+   "human": 3
+  },
+  {
+   "recipe_id": 136825,
+   "human": 5
+  },
+  {
+   "recipe_id": 121435,
+   "human": 2
+  },
+  {
+   "recipe_id": 172238,
+   "human": 5
+  },
+  {
+   "recipe_id": 28,
+   "human": 3
+  },
+  {
+   "recipe_id": 137709,
+   "human": 5
+  },
+  {
+   "recipe_id": 81267,
+   "human": 5
+  },
+  {
+   "recipe_id": 63885,
+   "human": 3
+  },
+  {
+   "recipe_id": 121529,
+   "human": 5
+  },
+  {
+   "recipe_id": 134881,
+   "human": 5
+  },
+  {
+   "recipe_id": 158892,
+   "human": 5
+  },
+  {
+   "recipe_id": 38180,
+   "human": 5
+  },
+  {
+   "recipe_id": 49183,
+   "human": 5
+  },
+  {
+   "recipe_id": 47281,
+   "human": 5
+  },
+  {
+   "recipe_id": 53887,
+   "human": 3
+  },
+  {
+   "recipe_id": 55353,
+   "human": 4
+  },
+  {
+   "recipe_id": 51690,
+   "human": 5
+  },
+  {
+   "recipe_id": 170356,
+   "human": 5
+  },
+  {
+   "recipe_id": 165090,
+   "human": 5
+  },
+  {
+   "recipe_id": 140142,
+   "human": 5
+  },
+  {
+   "recipe_id": 81367,
+   "human": 5
+  },
+  {
+   "recipe_id": 75750,
+   "human": 4
+  },
+  {
+   "recipe_id": 23582,
+   "human": 4
+  }
+ ],
+ "annotator": "DeepSeek"
+}
