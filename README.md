@@ -9,6 +9,10 @@
 Полный цикл: сбор и очистка данных → отбор примеров LLM-судьёй → LoRA SFT на одной V100 → RAG-индекс →
 автометрики с доверительными интервалами и слепое SBS → веб-демо. Эксперименты логируются в MLflow.
 
+**[Галерея ответов](https://iseequeue.github.io/recipe-llm/)** — все 200 запросов оценки и ответы восьми систем
+рядом, с фильтрами и значками автометрик. Ничего не нужно запускать: можно сразу посмотреть, как модели
+путаются в харчо и как RAG это исправляет.
+
 ## Главное
 
 Цифры — по 200 запросам, в скобках 95% бутстрэп-интервал; эффекты считаются парно на одних и тех же запросах.
@@ -245,6 +249,7 @@ scripts/build_rag_index.py  RAG-индекс
 train.py                    обучение (HF Trainer + PEFT + MLflow)
 scripts/evaluate.py         генерация на eval-наборе + метрики
 scripts/report.py           бутстрэп-ДИ, парные эффекты, графики -> eval/REPORT.md
+scripts/make_gallery.py     статическая галерея ответов -> docs/index.html (GitHub Pages)
 scripts/make_sbs.py         страница слепого сравнения;  scripts/compare.py  краткая таблица -> eval/RESULTS.md
 app.py, infer.py            веб-демо (Gradio) и CLI
 slurm/                      sbatch-задачи и цепочки run_all.sh / run_rag.sh / run_eval.sh;  configs/  конфиги обучения

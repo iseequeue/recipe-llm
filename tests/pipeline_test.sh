@@ -61,6 +61,7 @@ LBLEOF
 python scripts/report.py --bootstrap 500 --runs "tiny=%"
 test -s eval/REPORT.md && test -s eval/figures/metrics_ci.png && test -s eval/figures/dishes_heatmap.png
 test -s eval/figures/judge_validation.png && grep -q "Проверка судьи" eval/REPORT.md
+python scripts/make_gallery.py --out "$WORK/gallery.html" && grep -q '"systems"' "$WORK/gallery.html"
 
 A="$A" python - <<'PYEOF'
 import os, sys
